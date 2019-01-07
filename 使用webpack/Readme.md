@@ -6,7 +6,7 @@
 查看webpack所有的命令行选项
 ### webpack -v
 查看webpack版本
-### webpack <entry> [<entry>] <output>
+### webpack entry [entry] output
 webpack打包项目
 
 ## webpack配置
