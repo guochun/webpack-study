@@ -97,14 +97,14 @@ eval("module.exports = function (css) {\r\n  console.dir(typeof css)\r\n  return
 
 /***/ }),
 
-/***/ "./node_modules/css-loader/dist/cjs.js!./src/css/base.css":
-/*!****************************************************************!*\
-  !*** ./node_modules/css-loader/dist/cjs.js!./src/css/base.css ***!
-  \****************************************************************/
+/***/ "./node_modules/css-loader/dist/cjs.js?!./src/css/base.css":
+/*!**************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--4-1!./src/css/base.css ***!
+  \**************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"html {\\r\\n  background: green;\\r\\n}\\r\\nbody{\\r\\n  background: red;\\r\\n  margin: 0;\\r\\n}\\r\\n.test {\\r\\n  width: 100px;\\r\\n  height: 100px;\\r\\n  background: blue;\\r\\n}\\r\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/base.css?./node_modules/css-loader/dist/cjs.js");
+eval("exports = module.exports = __webpack_require__(/*! ../../node_modules/css-loader/dist/runtime/api.js */ \"./node_modules/css-loader/dist/runtime/api.js\")(false);\n// Module\nexports.push([module.i, \"html {\\r\\n  background: green;\\r\\n}\\r\\nbody{\\r\\n  background: red;\\r\\n  margin: 0;\\r\\n}\\r\\n.test {\\r\\n  width: 100px;\\r\\n  height: 100px;\\r\\n  background: blue;\\r\\n}\\r\\n\", \"\"]);\n\n\n\n//# sourceURL=webpack:///./src/css/base.css?./node_modules/css-loader/dist/cjs.js??ref--4-1");
 
 /***/ }),
 
@@ -161,7 +161,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _css
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js!./base.css */ \"./node_modules/css-loader/dist/cjs.js!./src/css/base.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\ntransform = __webpack_require__(/*! ../../css.transform.js */ \"./css.transform.js\");\n\nvar options = {\"insertInto\":\"#app\",\"transform\":\"./css.transform.js\",\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = \"#app\";\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/css/base.css?");
+eval("\nvar content = __webpack_require__(/*! !../../node_modules/css-loader/dist/cjs.js??ref--4-1!./base.css */ \"./node_modules/css-loader/dist/cjs.js?!./src/css/base.css\");\n\nif(typeof content === 'string') content = [[module.i, content, '']];\n\nvar transform;\nvar insertInto;\n\ntransform = __webpack_require__(/*! ../../css.transform.js */ \"./css.transform.js\");\n\nvar options = {\"insertInto\":\"#app\",\"transform\":\"./css.transform.js\",\"hmr\":true}\n\noptions.transform = transform\noptions.insertInto = \"#app\";\n\nvar update = __webpack_require__(/*! ../../node_modules/style-loader/lib/addStyles.js */ \"./node_modules/style-loader/lib/addStyles.js\")(content, options);\n\nif(content.locals) module.exports = content.locals;\n\nif(false) {}\n\n//# sourceURL=webpack:///./src/css/base.css?");
 
 /***/ })
 

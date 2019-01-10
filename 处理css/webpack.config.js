@@ -24,8 +24,11 @@ module.exports = {
             //loader: 'style-loader/useable'
           },
           {
-             loader: 'css-loader'
+             loader: 'css-loader',
             //loader: 'file-loader'
+            options: {
+              modules: true
+            }
           },
         ]
       }
