@@ -1,0 +1,12 @@
+html {
+  background: green;
+}
+body{
+  background: red;
+  margin: 0;
+}
+.test {
+  width: 100px;
+  height: 100px;
+  background: blue;
+}
